@@ -23,7 +23,6 @@ body {
 }
 .tela {
     width: 500px;
-    height: 320px;
     background: linear-gradient(to right, #e8e8e8, #c1c1c1);
     border: 2px solid #555;
     display: flex;
@@ -51,6 +50,9 @@ body {
     margin: 10px;
     cursor: pointer;
     box-shadow: 3px 3px 0px #555;
+}
+.teclado--botao:active {
+    transform: scale(0.9);
 }
 .botao--branco {
     background-color: #fff;
